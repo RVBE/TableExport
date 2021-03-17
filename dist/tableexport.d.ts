@@ -148,7 +148,7 @@ export declare class TableExport {
     /**
      * Exports and downloads the file
      */
-    export2file: (data: string, mime: string, name: string, extension: String) => void;
+    export2file: (data: string, mime: string, name: string, extension: String, merges: any, RTL: boolean, sheetname: string) => void;
 
     /**
      * Retrieve export data for each selector and its respective formats
